@@ -10,10 +10,10 @@ class URI
 
         string[] valores = entrada.Split(' ');
 
-        int hi = int.Parse(valores[0]); //Hi Inicial
-        int mi = int.Parse(valores[1]); //Mi Inicial
-        int hf = int.Parse(valores[2]); //Hf Final
-        int mf = int.Parse(valores[3]); //Mf Final
+        int hi = int.Parse(valores[0]);
+        int mi = int.Parse(valores[1]); 
+        int hf = int.Parse(valores[2]);
+        int mf = int.Parse(valores[3]);
         int horaInicial = (hi * 60) + mi;
         int horaFinal = (hf * 60) + mf;
         int resultado;
